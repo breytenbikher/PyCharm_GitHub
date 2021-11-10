@@ -1,6 +1,6 @@
 def what_day(date):
     days = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
-    st_date = '1921-01-01'
+    st_date = '2021-10-10'
     day = 'Sa'
     f_date = date
     months_dict = {1: 31, 2: 28, 3: 31, 4: 30, 5: 31, 6: 30, 7: 31, 8: 31, 9: 30, 10: 31, 11: 30, 12: 31}
@@ -82,7 +82,7 @@ def what_day(date):
     #print(counter)
     return answer
 
-print(what_day('2021-10-10'))
+print(what_day('1921-01-01'))
 
 
 
